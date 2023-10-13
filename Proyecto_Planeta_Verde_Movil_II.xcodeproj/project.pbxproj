@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEDDDEDE2AD9B44F005D6EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDDEDD2AD9B44F005D6EE2 /* AppDelegate.swift */; };
+		DEDDDEE02AD9B44F005D6EE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDDEDF2AD9B44F005D6EE2 /* SceneDelegate.swift */; };
+		DEDDDEE22AD9B44F005D6EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDDEE12AD9B44F005D6EE2 /* ViewController.swift */; };
+		DEDDDEE52AD9B44F005D6EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDDDEE32AD9B44F005D6EE2 /* Main.storyboard */; };
+		DEDDDEE82AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEDDDEE62AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II.xcdatamodeld */; };
+		DEDDDEEA2AD9B453005D6EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDDDEE92AD9B453005D6EE2 /* Assets.xcassets */; };
+		DEDDDEED2AD9B453005D6EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDDDEEB2AD9B453005D6EE2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEDDDEDA2AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto_Planeta_Verde_Movil_II.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDDDEDD2AD9B44F005D6EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEDDDEDF2AD9B44F005D6EE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEDDDEE12AD9B44F005D6EE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEDDDEE42AD9B44F005D6EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEDDDEE72AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Proyecto_Planeta_Verde_Movil_II.xcdatamodel; sourceTree = "<group>"; };
+		DEDDDEE92AD9B453005D6EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEDDDEEC2AD9B453005D6EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEDDDEEE2AD9B453005D6EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEDDDED72AD9B44F005D6EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEDDDED12AD9B44F005D6EE2 = {
+			isa = PBXGroup;
+			children = (
+				DEDDDEDC2AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II */,
+				DEDDDEDB2AD9B44F005D6EE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEDDDEDB2AD9B44F005D6EE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDDDEDA2AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEDDDEDC2AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II */ = {
+			isa = PBXGroup;
+			children = (
+				DEDDDEDD2AD9B44F005D6EE2 /* AppDelegate.swift */,
+				DEDDDEDF2AD9B44F005D6EE2 /* SceneDelegate.swift */,
+				DEDDDEE12AD9B44F005D6EE2 /* ViewController.swift */,
+				DEDDDEE32AD9B44F005D6EE2 /* Main.storyboard */,
+				DEDDDEE92AD9B453005D6EE2 /* Assets.xcassets */,
+				DEDDDEEB2AD9B453005D6EE2 /* LaunchScreen.storyboard */,
+				DEDDDEEE2AD9B453005D6EE2 /* Info.plist */,
+				DEDDDEE62AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II.xcdatamodeld */,
+			);
+			path = Proyecto_Planeta_Verde_Movil_II;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEDDDED92AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDDDEF12AD9B453005D6EE2 /* Build configuration list for PBXNativeTarget "Proyecto_Planeta_Verde_Movil_II" */;
+			buildPhases = (
+				DEDDDED62AD9B44F005D6EE2 /* Sources */,
+				DEDDDED72AD9B44F005D6EE2 /* Frameworks */,
+				DEDDDED82AD9B44F005D6EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Proyecto_Planeta_Verde_Movil_II;
+			productName = Proyecto_Planeta_Verde_Movil_II;
+			productReference = DEDDDEDA2AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEDDDED22AD9B44F005D6EE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DEDDDED92AD9B44F005D6EE2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = DEDDDED52AD9B44F005D6EE2 /* Build configuration list for PBXProject "Proyecto_Planeta_Verde_Movil_II" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEDDDED12AD9B44F005D6EE2;
+			productRefGroup = DEDDDEDB2AD9B44F005D6EE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEDDDED92AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEDDDED82AD9B44F005D6EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDDDEED2AD9B453005D6EE2 /* LaunchScreen.storyboard in Resources */,
+				DEDDDEEA2AD9B453005D6EE2 /* Assets.xcassets in Resources */,
+				DEDDDEE52AD9B44F005D6EE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEDDDED62AD9B44F005D6EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDDDEE22AD9B44F005D6EE2 /* ViewController.swift in Sources */,
+				DEDDDEE82AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II.xcdatamodeld in Sources */,
+				DEDDDEDE2AD9B44F005D6EE2 /* AppDelegate.swift in Sources */,
+				DEDDDEE02AD9B44F005D6EE2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEDDDEE32AD9B44F005D6EE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDDDEE42AD9B44F005D6EE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEDDDEEB2AD9B453005D6EE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDDDEEC2AD9B453005D6EE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEDDDEEF2AD9B453005D6EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEDDDEF02AD9B453005D6EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEDDDEF22AD9B453005D6EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Proyecto_Planeta_Verde_Movil_II/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.santiago.Proyecto-Planeta-Verde-Movil-II";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEDDDEF32AD9B453005D6EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Proyecto_Planeta_Verde_Movil_II/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.santiago.Proyecto-Planeta-Verde-Movil-II";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEDDDED52AD9B44F005D6EE2 /* Build configuration list for PBXProject "Proyecto_Planeta_Verde_Movil_II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDDDEEF2AD9B453005D6EE2 /* Debug */,
+				DEDDDEF02AD9B453005D6EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDDDEF12AD9B453005D6EE2 /* Build configuration list for PBXNativeTarget "Proyecto_Planeta_Verde_Movil_II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDDDEF22AD9B453005D6EE2 /* Debug */,
+				DEDDDEF32AD9B453005D6EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEDDDEE62AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEDDDEE72AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II.xcdatamodel */,
+			);
+			currentVersion = DEDDDEE72AD9B44F005D6EE2 /* Proyecto_Planeta_Verde_Movil_II.xcdatamodel */;
+			path = Proyecto_Planeta_Verde_Movil_II.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DEDDDED22AD9B44F005D6EE2 /* Project object */;
+}
